@@ -1,0 +1,21 @@
+body {
+    background-color: #e9c46a;
+}
+
+.holder table {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background: #077B85;
+    font-family: sans-serif;
+    width: auto;
+    height: 3em;
+}
+
+.header div {
+    margin: 1em;
+    color: white;
+}
