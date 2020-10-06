@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let rFromInput = getRValue();
         $("x-input").value = (click.x - CENTER.x) * rFromInput / R;
         $("y-input").value = (CENTER.y - click.y) * rFromInput / R;
+        checkInput();
         draw(c2d);
     });
     $('x-input').addEventListener('input', function (e) {

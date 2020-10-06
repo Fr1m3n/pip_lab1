@@ -77,7 +77,7 @@ function checkInput() {
 
 document.addEventListener("DOMContentLoaded", function () {
     // $("submit").addEventListener("click", onFormSubmit);
-    $("reset").addEventListener("click", resetTable);
+    // $("reset").addEventListener("click", resetTable);
     $("x-input").addEventListener("input", checkInput);
     $("y-input").addEventListener("input", checkInput);
     // getTable();

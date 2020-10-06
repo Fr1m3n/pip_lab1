@@ -23,6 +23,7 @@ public class AreaCheckResultsTableView implements View<List<Entry>> {
                                 .collect(Collectors.joining())
                 )
                 .append("</table>");
+//                .append("<a href='/main'>Return</a>");
 //        System.out.println(sb.toString());
         return sb.toString();
     }

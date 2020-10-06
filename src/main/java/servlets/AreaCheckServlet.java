@@ -29,6 +29,7 @@ public class AreaCheckServlet extends HttpServlet {
             Entry entry = new Entry(x, y, r, req.getRemoteAddr());
             View<List<Entry>> checkResultView = new AreaCheckResultsTableView();
             resp.getWriter().print(checkResultView.build(List.of(entry)));
+            resp.getWriter().print("<a href='/main'>Return</a>");
             List<Entry> entries = (List<Entry>)getServletContext().getAttribute("entries");
             if (entries == null) {
                 entries = new ArrayList<>();
